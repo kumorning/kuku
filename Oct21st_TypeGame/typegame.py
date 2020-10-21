@@ -22,14 +22,14 @@ list_len = len(WORD_LIST)
 current_count = 0
 
 while current_count < list_len:
-    q = WORD_LIST[current_count]
+    question = WORD_LIST[current_count]
     current_count += 1
 
     start_time = time.time()
-    user_input = input(q + '\n')
+    user_input = input(question + '\n')
     end_time = time.time() - start_time
 
-    src = hgtk.text.decompose(q)
+    src = hgtk.text.decompose(question)
     tar = hgtk.text.decompose(user_input)
 
     correct = 1
