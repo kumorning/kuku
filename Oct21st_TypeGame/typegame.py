@@ -1,3 +1,4 @@
+#song lyrics typing pratice tool
 #song:Hard to say goodbye_Johnny stimson
 import random
 import time
@@ -46,9 +47,3 @@ while current_count < list_len:
     speed = float(correct / end_time) * 60
     print("speed: {:0.2f} accuracy: {} %".format(speed, c, e))
     
-
-
-
-
-
-
